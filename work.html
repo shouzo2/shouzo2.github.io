@@ -13,7 +13,17 @@
   <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
   <title>View My Work</title>
 </head>
-<style>img {
+<style>
+* {
+  box-sizing: border-box;
+}
+    .row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}img {
     border:2px solid #ffffff;
     max-width: 100%;
     max-height: 100%;
@@ -24,6 +34,33 @@
     transition: 0.3s ease;
     opacity: .4;
   }
+  .column {
+  -ms-flex: 15%; /* IE10 */
+  flex: 15%;
+  max-width: 15%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 300px;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
 </style>
 
 <body>
@@ -50,6 +87,9 @@
         </li>
         <li class="nav-item">
           <a href="contact.html" class="nav-link"> How To Reach Me </a>
+        </li>
+        <li class="nav-item">
+          <a href="teste.html" class="nav-link"> More Work </a>
         </li>
       </ul>
     </nav>
@@ -232,50 +272,16 @@
       
       
       </div class="item">
-      <a href="dist/img/projects/project22.jpg" data-lightbox="img" data-title="Portrait 5">
+      <a href="dist/img/projects/project22.jpg" data-lightbox="img" data-title="Portrait 4">
         <img src="dist/img/projects/project22.jpg" alt="Project" />
       </a>
       <a href="dist/img/projects/project22.jpg">
       
-      </div class="item">
-      <a href="dist/img/projects/project25.jpg" data-lightbox="img" data-title="Storyline">
-        <img src="dist/img/projects/project25.jpg" alt="Project" width="422px" height="350"/>
-      </a>
-      <a href="dist/img/projects/project25.jpg" >
-      
-      </div class="item">
-      <a href="dist/img/projects/project23.jpg" data-lightbox="img" data-title="Storyline2">
-        <img src="dist/img/projects/project23.jpg" alt="Project" width="430px" height="350"/>
-      </a>
-      <a href="dist/img/projects/project23.jpg" >
         
-      </a></div class="item">
-      <a href="dist/img/projects/project26.jpg" data-lightbox="img" data-title="Wonder Woman">
-        <img src="dist/img/projects/project26.jpg" alt="Project" width="430px" height="300"/>
-      </a>
-      <a href="dist/img/projects/project26.jpg" >
-        
-        
-      </a>
-    </div class="item">
-    <a href="dist/img/projects/project27.jpg" data-lightbox="img" data-title="Valhalla">
-      <img src="dist/img/projects/project27.jpg" alt="Project" width="430px" height="300"
-      img {
-        border:2px solid #000;
-      }
-      img{:hover border:4px solid rgb(74, 216, 235);
-      background: rgba(0, 0, 0, 0.5);
-      transition: 0.3s ease;
-      backdrop-filter: blur(8px) brightness(80%);
-      opacity: .4;
-      
-    }
-    href="dist/img/projects/project27.jpg" >
-      
-    </a>
 
-
+      
     </div>
+    </div> 
 
   </main>
   <style> 

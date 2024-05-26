@@ -187,13 +187,13 @@
   .projects {
     display: grid;
     grid-gap: 0.7rem;
-    grid-template-columns: repeat(3, 1fr); }
+     }
     .projects img {
       width: 100%;
-      border: 3px white solid; }
+      border: 3px rgb(10, 157, 255) solid; }
       .projects img:hover {
         opacity: 0.5;
-        border-color: #03ffea;
+        border-color: #ff0303;
         transition: all 0.5s ease-out; }
   
   .boxes {
@@ -243,18 +243,18 @@
   div.shanne2 img {
     width: 80%;
     height: 100%;
-    float: top;
-    position: 0vh; }
+    float: bottom;
+    position: 60vh; }
   
   div.shanne2 p {
     text-align: justify;
-    position: absolute;
-    top: 7vh;
+    position: center;
+    top: 60vh;
     margin: 15 px; }
   
-  @media screen and (min-width: 1171px) {
+  @media screen and (min-width: 400px){
     .projects {
-      grid-template-columns: repeat(4, 1fr); } }
+      grid-template-columns: repeat(4, 2fr); } }
   
   @media screen and (min-width: 769px) and (max-width: 1170px) {
     .projects {
@@ -302,3 +302,14 @@
         font-size: 5rem; }
     .projects {
       grid-template-columns: 1fr; } }
+      
+      @media only screen and(max-width:414px){
+        .text{
+        visibility:collapse;
+      }
+      .phonetext{
+        visibility: visible;
+      }
+
+
+      }
