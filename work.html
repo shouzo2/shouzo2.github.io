@@ -13,55 +13,6 @@
   <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
   <title>View My Work</title>
 </head>
-<style>
-* {
-  box-sizing: border-box;
-}
-    .row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}img {
-    border:2px solid #ffffff;
-    max-width: 100%;
-    max-height: 100%;
-  }
-  img:hover {
-    border:4px solid rgb(74, 216, 235);
-    background: rgba(0, 0, 0, 0.5);
-    transition: 0.3s ease;
-    opacity: .4;
-  }
-  .column {
-  -ms-flex: 15%; /* IE10 */
-  flex: 15%;
-  max-width: 15%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 300px;
-}
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-</style>
 
 <body>
   <header>
@@ -77,7 +28,7 @@
       </div>
       <ul class="menu-nav">
         <li class="nav-item">
-          <a href="home.html" class="nav-link"> Home </a>
+          <a href="index.html" class="nav-link"> Home </a>
         </li>
         <li class="nav-item">
           <a href="about.html" class="nav-link"> About Me </a>
@@ -101,24 +52,31 @@
    
     <div class="projects">
       <div class="item">
-        <a href="img/projects/project1.jpg" data-lightbox="mygallery" data-title="Me">
-          <img src="img/projects/project1.jpg" alt="Myself" width="420" height="320"/>
+        <a href="img/projects/project1.jpg" data-lightbox="mygallery" data-title="AutoPortrait">
+          <img src="img/projects/project1.jpg" alt="PersonalCard" />
         </a>
         <a href="img/projects/project1.jpg">
-          <i class="fas fa-eye"></i> Myself
+          <i class="fas fa-eye"></i> Auto Portrait
         </a>
       </div>
       <div class="item">
-        <a href="img/projects/project2.jpg" data-lightbox="img" data-title="Portrait" >
+        <a href="img/projects/project2.jpg" data-lightbox="mygallery" data-title="Portrait" >
           <img src="img/projects/project2.jpg" alt="Portrait" />
         </a>
         <a href="img/projects/project2.jpg" >
           <i class="fas fa-eye"></i> Portrait
         </a>
       </div>
-
       <div class="item">
-        <a href="img/projects/project4.jpg" data-lightbox="img" data-title="Electrojad">
+        <a href="img/projects/project3.jpg" data-lightbox="mygallery" data-title="Time Up">
+          <img src="img/projects/project3.jpg" alt="Time" />
+        </a>
+        <a href="img/projects/project3.jpg" >
+          <i class="fas fa-eye"></i> Time Up
+        </a>
+      </div>
+      <div class="item">
+        <a href="img/projects/project4.jpg" data-lightbox="mygallery" data-title="Electrojad">
           <img src="img/projects/project4.jpg" alt="Project" />
         </a>
         <a href="img/projects/project4.jpg" >
@@ -126,7 +84,7 @@
         </a>
       </div>
       <div class="item">
-        <a href="img/projects/project5.jpg" data-lightbox="img" data-title="Compass">
+        <a href="img/projects/project5.jpg" data-lightbox="mygallery" data-title="Compass">
           <img src="img/projects/project5.jpg" alt="Project" />
         </a>
         <a href="img/projects/project5.jpg" >
@@ -135,7 +93,7 @@
         
       </div>
       <div class="item">
-        <a href="img/projects/project6.jpg" data-lightbox="img" data-title="Vivelegant">
+        <a href="img/projects/project6.jpg" data-lightbox="mygallery" data-title="Vivelegant">
           <img src="img/projects/project6.jpg" alt="Project" />
         </a>
         <a href="img/projects/project6.jpg" >
@@ -144,7 +102,7 @@
       
       </div>
       <div class="item">
-        <a href="img/projects/project7.jpg" data-lightbox="img" data-title="Jellyfish">
+        <a href="img/projects/project7.jpg" data-lightbox="mygallery" data-title="Jellyfish">
           <img src="img/projects/project7.jpg" alt="Project" />
         </a>
         <a href="img/projects/project7.jpg" >
@@ -153,7 +111,7 @@
       
       </div>
       <div class="item">
-        <a href="img/projects/project8.jpg" data-lightbox="img" data-title="Leopard">
+        <a href="img/projects/project8.jpg" data-lightbox="mygallery" data-title="Leopard">
           <img src="img/projects/project8.jpg" alt="Project" />
         </a>
         <a href="img/projects/project8.jpg" >
@@ -162,7 +120,7 @@
       
       </div>
       <div class="item">
-        <a href="img/projects/project9.jpg" data-lightbox="img" data-title="Painting">
+        <a href="img/projects/project9.jpg" data-lightbox="mygallery" data-title="Painting">
           <img src="img/projects/project9.jpg" alt="Project" />
         </a>
         <a href="img/projects/project9.jpg" >
@@ -171,7 +129,7 @@
       
       </div>
       <div class="item">
-        <a href="img/projects/project10.jpg" data-lightbox="img" data-title="Portrait 2">
+        <a href="img/projects/project10.jpg" data-lightbox="mygallery" data-title="Portrait 2">
           <img src="img/projects/project10.jpg" alt="Project" />
         </a>
         <a href="img/projects/project10.jpg" >
@@ -180,7 +138,7 @@
       
       </div>
       <div class="item">
-        <a href="img/projects/project11.jpg" data-lightbox="img" data-title="Gringo's Cook">
+        <a href="img/projects/project11.jpg" data-lightbox="mygallery" data-title="Gringo's Cook">
           <img src="img/projects/project11.jpg" alt="Project" />
         </a>
         <a href="img/projects/project11.jpg" >
@@ -189,7 +147,7 @@
       
       </div>
       <div class="item">
-        <a href="img/projects/project12.jpg" data-lightbox="img" data-title="3D house">
+        <a href="img/projects/project12.jpg" data-lightbox="mygallery" data-title="3D house">
           <img src="img/projects/project12.jpg" alt="Project" />
         </a>
         <a href="img/projects/project12.jpg" >
@@ -198,7 +156,7 @@
       
       </div>
       <div class="item">
-        <a href="img/projects/project13.jpg" data-lightbox="img" data-title="Adn">
+        <a href="img/projects/project13.jpg" data-lightbox="mygallery" data-title="Adn">
           <img src="img/projects/project13.jpg" alt="Project" />
         </a>
         <a href="img/projects/project13.jpg" >
@@ -207,7 +165,7 @@
       
       </div>
       <div class="item">
-        <a href="img/projects/project14.jpg" data-lightbox="img" data-title="Mobile App">
+        <a href="img/projects/project14.jpg" data-lightbox="mygallery" data-title="Mobile App">
           <img src="img/projects/project14.jpg" alt="Project" />
         </a>
         <a href="img/projects/project14.jpg" >
@@ -216,7 +174,7 @@
       
       </div>
       <div class="item">
-        <a href="img/projects/project15.jpg" data-lightbox="img" data-title="3D Rendering">
+        <a href="img/projects/project15.jpg" data-lightbox="mygallery" data-title="3D Rendering">
           <img src="img/projects/project15.jpg" alt="Project" />
         </a>
         <a href="img/projects/project15.jpg" >
@@ -225,7 +183,7 @@
       
       </div>
       <div class="item">
-        <a href="img/projects/project16.jpg" data-lightbox="img" data-title="Apex Tree House">
+        <a href="img/projects/project16.jpg" data-lightbox="mygallery" data-title="Apex Tree House">
           <img src="img/projects/project16.jpg" alt="Project" />
         </a>
         <a href="img/projects/project16.jpg" >
@@ -234,7 +192,7 @@
       
       </div>
       <div class="item">
-        <a href="img/projects/project17.jpg" data-lightbox="img" data-title="Portrait 3">
+        <a href="img/projects/project17.jpg" data-lightbox="mygallery" data-title="Portrait 3">
           <img src="img/projects/project17.jpg" alt="Project" />
         </a>
         <a href="img/projects/project17.jpg" >
@@ -243,7 +201,7 @@
       
       </div>
       <div class="item">
-        <a href="img/projects/project18.jpg" data-lightbox="img" data-title="Desert">
+        <a href="img/projects/project18.jpg" data-lightbox="mygallery" data-title="Desert">
           <img src="img/projects/project18.jpg" alt="Project" />
         </a>
         <a href="img/projects/project18.jpg" >
@@ -253,7 +211,7 @@
       
       </div>
       <div class="item">
-        <a href="img/projects/project19.jpg" data-lightbox="img" data-title="Rabit">
+        <a href="img/projects/project19.jpg" data-lightbox="mygallery" data-title="Rabit">
           <img src="img/projects/project19.jpg" alt="Project" />
         </a>
         <a href="img/projects/project19.jpg" >
@@ -263,36 +221,89 @@
       
       </div>
       <div class="item">
-        <a href="dist/img/projects/project21.jpg" data-lightbox="img" data-title="Portrait 4">
-          <img src="dist/img/projects/project21.jpg" alt="Project" />
+        <a href="img/projects/project20.jpg" data-lightbox="mygallery" data-title="Portrait 4">
+          <img src="img/projects/project20.jpg" alt="Project" />
         </a>
-        <a href="dist/img/projects/project21.jpg">
+        <a href="img/projects/project20.jpg" >
           <i class="fas fa-eye"></i> Portrait 4
         </a>
       
       
-      </div class="item">
-      <a href="dist/img/projects/project22.jpg" data-lightbox="img" data-title="Portrait 4">
-        <img src="dist/img/projects/project22.jpg" alt="Project" />
-      </a>
-      <a href="dist/img/projects/project22.jpg">
+      </div>
+      <div class="item">
+        <a href="dist/img/projects/project21.jpg" data-lightbox="mygallery" data-title="Portrait 5">
+          <img src="dist/img/projects/project21.jpg" alt="Project" />
+        </a>
+        <a href="dist/img/projects/project21.jpg">
+          <i class="fas fa-eye"></i> Portrait 5
+        </a>
       
-        
+      
+      </div>
+      <div class="item">
+        <a href="img/projects/project22.jpg" data-lightbox="mygallery" data-title="Converging Reality">
+          <img src="img/projects/project22.jpg" alt="Project" />
+        </a>
+        <a href="img/projects/project22.jpg" >
+          <i class="fas fa-eye"></i> Converging Reality
+        </a>
+      
+      
+      </div>
+      <div class="item">
+        <a href="img/projects/project23.jpg" data-lightbox="mygallery" data-title="Wonder Woman">
+          <img src="img/projects/project23.jpg" alt="Project" />
+        </a>
+        <a href="img/projects/project23.jpg" >
+          <i class="fas fa-eye"></i> Wonder Woman
+        </a>
+      
+      
+      </div>
+      <div class="item">
+        <a href="img/projects/project24.jpg" data-lightbox="mygallery" data-title="Converging Realities">
+          <img src="img/projects/project24.jpg" alt="Project" />
+        </a>
+        <a href="img/projects/project24.jpg" >
+          <i class="fas fa-eye"></i> Converging realities
+        </a>
+      
+      
+      </div>
+       <div class="item">
+        <a href="img/projects/project25.jpg" data-lightbox="mygallery" data-title="Assassin's Creed Valhalla">
+          <img src="img/projects/project25.jpg" alt="Project" />
+        </a>
+        <a href="img/projects/project25.jpg" >
+          <i class="fas fa-eye"></i> Assassin's Creed Valhalla
+        </a>
+      
+      
+      </div>
+      <div class="item">
+        <a href="img/projects/project26.jpg" data-lightbox="mygallery" data-title="Portrait 6">
+          <img src="img/projects/project26.jpg" alt="Project" />
+        </a>
+        <a href="img/projects/project26.jpg" >
+          <i class="fas fa-eye"></i> Portrait 6
+        </a>
+      
+      
+      </div>
 
-      
+
     </div>
-    </div> 
-
+    </div>
   </main>
   <style> 
-  article{text-align: center;
-    color: white;
-          background-color: #000000;  
-            }</style>
-  <article id:="first-footer">These works were created from 2007 to 2024 (present date). To find more about me you can reach out for my contact, or search my other portfolio links. (youtube, behance, instagram etc.)
-    <article> 
+    article{text-align: center;
+      color: white;
+            background-color: #000000;  
+              }</style>
+    <article id:="first-footer">These works were created from 2007 to 2024 (present date). To find more about me you can reach out for my contact, or search my other portfolio links. (youtube, behance, instagram etc.)
+      <article> 
 
-  <footer id="main-footer">Copyright &copy; Tiago Santos</footer>
+  <footer id="main-footer">Tiago &copy; Santos</footer>
 
   <script src="js/main.js"></script>
 </body>

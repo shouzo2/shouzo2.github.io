@@ -190,10 +190,10 @@
      }
     .projects img {
       width: 100%;
-      border: 3px rgb(10, 157, 255) solid; }
+      border: 3px rgb(253, 253, 253) solid; }
       .projects img:hover {
         opacity: 0.5;
-        border-color: #ff0303;
+        border-color: #03ffab;
         transition: all 0.5s ease-out; }
   
   .boxes {
